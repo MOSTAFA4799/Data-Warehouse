@@ -1,1 +1,17 @@
-
+/*
+===========================
+Scripts
+===========================
+using master system i created DB caleed 'Datwarehouse' , excute it and creat DB schema
+and excuted all 'bronze , silver , gold' .to ensure where is this layer found 
+from databases => datawarehouse => security => schema
+*/
+Use master;
+create database DataWarehouse;
+use datawarehouse;
+create schema bronze;
+go
+create schema silver;
+go
+create schema gold;
+go
